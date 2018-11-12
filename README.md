@@ -9,7 +9,7 @@ It is only available to the slack now.
 2. just append `SlackNotifier` in your callbacks
 
 
-```
+```python
     import os
 
     from keras import Sequential

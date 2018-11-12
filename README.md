@@ -1,10 +1,11 @@
 # keras-notifier-callback
-This is a simple keras notifier callback.
+This is a simple keras notifier callback.  
 It is only available to the slack now.
 
 ## usage:
-1. add your slack url in enviroment variable
+1. add your slack url in enviroment variable  
 `export SLACK_URL="http:hooks.slack.com/services/xxxxxxx/yyyyyyyyyy"`
+
 2. just append `SlackNotifier` in your callbacks
 
 

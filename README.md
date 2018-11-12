@@ -28,3 +28,7 @@ It is only available to the slack now.
     model.fit(inp, out, epochs=30,
               callbacks=[SlackNotifier(os.getenv("SLACK_URL"), every_log_steps=10, include_time=True)])
 ```
+
+and, you can get the result.
+
+<img width="318" alt="result" src="https://user-images.githubusercontent.com/23252616/48365418-37593c00-e6ee-11e8-96bb-df8607cb6c04.png">
